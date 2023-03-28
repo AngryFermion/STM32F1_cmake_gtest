@@ -3,8 +3,8 @@
 #include "stdio.h"
 #include <stdlib.h>
 GPIO_InitTypeDef GPIO_InitStruct = {0};
-int test_val[4] = {0};
-int *init_led(){
+uint16_t test_val[4] = {0};
+uint16_t *init_led(){
 /* GPIO Ports Clock Enable */
     #ifndef TESTING
   __HAL_RCC_GPIOA_CLK_ENABLE();
