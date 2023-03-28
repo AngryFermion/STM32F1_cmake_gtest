@@ -1,0 +1,5 @@
+project(HelloWorld)
+cmake_minimum_required(VERSION 3.0)
+add_definitions(-DTESTING)
+#add_executable(init_led /home/vishnu/stm_cmake_v3/stm32-cmake-blinking-led/source/main/src/init_led.c)
+add_library(init_led /home/vishnu/stm_cmake_v3/stm32-cmake-blinking-led/source/main/src/init_led.c)
