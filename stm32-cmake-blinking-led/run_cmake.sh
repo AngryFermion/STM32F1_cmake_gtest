@@ -1,6 +1,8 @@
 #!/bin/bash
 #sudo rm -r build/
+ISS_NUM=13
 <<comment
+
 rm -r build/
 mkdir build
 cd build/
@@ -62,8 +64,8 @@ then
  cd ..
  cd Issues
  pwd
- awk '{print $1}' issue_text.tx
- ISS_NUM=$?
+ 
+ #ISS_NUM= $(awk '{print $1}' issue_text.tx)
  gh issue close ${ISS_NUM}
  echo "Building and FLashing STM32F1xx board....."
  cd ..
@@ -78,6 +80,7 @@ else
  echo "GTEST NOT PASSED..."
  echo "CREATING AN ISSUE ON GIT REPOSITORY"
  gh issue create -a "@me" -b "Gtest failed. Please check GPIO configuration." -t "GPIO Tests"
+ ISS_NUM=${ISS_NUM} + 1
  gh issue list > ../../Issues/issue_text.tx
 fi
 
