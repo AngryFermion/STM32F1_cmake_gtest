@@ -57,7 +57,8 @@ if [ ${TEST_RET} == 0 ]
 then
  echo "GTEST PASSED"
  echo "Closing any issues that were open due to GPIO Gtest failures"
- gh issue close 10
+ issue_number=grep -o "^\w*\b" ../../Issues/issue_text.tx
+ gh issue close ${issue_number}
  echo "Building and FLashing STM32F1xx board....."
  cd ..
  cd ..
@@ -72,5 +73,6 @@ else
  echo "GTEST NOT PASSED..."
  echo "CREATING AN ISSUE ON GIT REPOSITORY"
  gh issue create -a "@me" -b "Gtest failed. Please check GPIO configuration." -t "GPIO Tests"
+ issue list > ../../Issues/issue_text.tx
 fi
 
