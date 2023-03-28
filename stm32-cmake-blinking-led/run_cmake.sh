@@ -60,11 +60,10 @@ then
  echo "GTEST PASSED"
  echo "Closing any issues that were open due to GPIO Gtest failures"
  pwd
- 
- 
  #ISS_NUM= $(awk '{print $1}' issue_text.tx)
- gh issue close ISS_NUM
+ #gh issue close 13
  echo "Building and FLashing STM32F1xx board....."
+ cd ..
  cd ..
  cd stm32-cmake-blinking-led/
  rm -r build/
@@ -76,8 +75,8 @@ then
 else
  echo "GTEST NOT PASSED..."
  echo "CREATING AN ISSUE ON GIT REPOSITORY"
- gh issue create -a "@me" -b "Gtest failed. Please check GPIO configuration." -t "GPIO Tests"
- ISS_NUM=${ISS_NUM} + 1
- gh issue list > ../../Issues/issue_text.tx
+ #gh issue create -a "@me" -b "Gtest failed. Please check GPIO configuration." -t "GPIO Tests"
+ #ISS_NUM=${ISS_NUM} + 1
+ #gh issue list > ../../Issues/issue_text.tx
 fi
 
