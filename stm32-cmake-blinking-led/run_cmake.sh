@@ -68,6 +68,6 @@ then
 else
  echo "GTEST NOT PASSED..."
  echo "CREATING AN ISSUE ON GIT REPOSITORY"
- gh issue create -a "@me" -b "Gtest failed. Please check GPIO configuration."
+ gh issue create -a "@me" -b "Gtest failed. Please check GPIO configuration." -title "GPIO Tests"
 fi
 
