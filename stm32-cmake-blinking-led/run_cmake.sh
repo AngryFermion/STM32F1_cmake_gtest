@@ -55,7 +55,10 @@ TEST_RET=$?
 echo "Test has returned:"${TEST_RET}
 if [ ${TEST_RET} == 0 ]
 then
- echo "GTEST PASSED. Building and FLashing STM32F1xx board....."
+ echo "GTEST PASSED"
+ echo "Closing any issues that were open due to GPIO Gtest failures"
+ gh issue close {1} -c "Issue cleared by dev."
+ echo "Building and FLashing STM32F1xx board....."
  cd ..
  cd ..
  cd stm32-cmake-blinking-led/
