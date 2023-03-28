@@ -68,8 +68,8 @@ then
  cd ..
  pwd
  cd STM32F1_cmake_gtest/
- echo -e ancit12345 | sudo -S gh issue close ${ISS_NUM}
-
+ sudo -S gh issue close ${ISS_NUM}
+ echo "ancit12345"
  echo "Building and FLashing STM32F1xx board....."
  cd ..
  cd ..
