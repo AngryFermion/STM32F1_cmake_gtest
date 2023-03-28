@@ -1,6 +1,5 @@
 #!/bin/bash
 #sudo rm -r build/
-ISS_NUM=13
 <<comment
 
 rm -r build/
@@ -63,7 +62,7 @@ then
  cd ..
  cd ..
  cd Issues/
- ISS_NUM= $(awk '{print $1}' issue_text.tx)
+ ISS_NUM=$(awk '{print $1}' issue_text.tx)
  
  echo "Building and FLashing STM32F1xx board....."
  cd ..
