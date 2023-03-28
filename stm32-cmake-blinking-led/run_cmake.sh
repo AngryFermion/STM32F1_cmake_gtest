@@ -63,6 +63,9 @@ then
  
  
  #ISS_NUM= $(awk '{print $1}' issue_text.tx)
+ cd ..
+ cd ..
+ gh init
  gh issue close 13
  echo "Building and FLashing STM32F1xx board....."
  cd ..
