@@ -63,8 +63,8 @@ then
  cd Issues
  pwd
  grep -o "^\w*\b" issue_text.tx
- issue_number=$?
- gh issue close ${issue_number}
+ ISS_NUM=$?
+ gh issue close ${ISS_NUM}
  echo "Building and FLashing STM32F1xx board....."
  cd ..
  cd stm32-cmake-blinking-led/
