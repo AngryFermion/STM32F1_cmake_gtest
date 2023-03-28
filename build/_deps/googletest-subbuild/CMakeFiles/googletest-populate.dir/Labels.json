@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

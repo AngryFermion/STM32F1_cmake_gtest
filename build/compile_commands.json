@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/testfiles",
+  "command": "/usr/bin/cc -DTESTING    -o CMakeFiles/init_led.dir/home/vishnu/stm_cmake_v3/stm32-cmake-blinking-led/source/main/src/init_led.c.o   -c /home/vishnu/stm_cmake_v3/stm32-cmake-blinking-led/source/main/src/init_led.c",
+  "file": "/home/vishnu/stm_cmake_v3/stm32-cmake-blinking-led/source/main/src/init_led.c"
+},
+{
+  "directory": "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/gtest",
+  "command": "/usr/bin/c++  -DTESTING -I/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/gtest/inc -I/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/gtest/src -I/home/vishnu/stm_cmake_v3/stm32-cmake-blinking-led/source/main/inc/main/led_init.h -I/home/vishnu/tools/STM32CubeF1/Drivers/STM32F1xx_HAL_Driver/Inc -I/home/vishnu/tools/STM32CubeF1/Core/Inc -I/home/vishnu/tools/STM32CubeF1/Drivers/CMSIS/Device/ST/STM32F1xx/Include -I/home/vishnu/tools/STM32CubeF1/Drivers/CMSIS/Core/Include -isystem /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest/include -isystem /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest    -std=gnu++14 -o CMakeFiles/hello_test.dir/hello_test.cc.o -c /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/gtest/hello_test.cc",
+  "file": "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/gtest/hello_test.cc"
+},
+{
+  "directory": "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++   -isystem /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googlemock/include -isystem /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googlemock -isystem /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest/include -isystem /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/c++   -I/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googlemock/include -I/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googlemock -isystem /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest/include -isystem /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++   -isystem /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest/include -isystem /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/c++   -I/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest/include -I/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest    -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/_deps/googletest-src/googletest/src/gtest-all.cc"
+}
+]

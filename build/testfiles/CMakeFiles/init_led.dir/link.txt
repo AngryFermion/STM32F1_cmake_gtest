@@ -1,0 +1,2 @@
+/usr/bin/ar qc libinit_led.a  CMakeFiles/init_led.dir/home/vishnu/stm_cmake_v3/stm32-cmake-blinking-led/source/main/src/init_led.c.o
+/usr/bin/ranlib libinit_led.a
