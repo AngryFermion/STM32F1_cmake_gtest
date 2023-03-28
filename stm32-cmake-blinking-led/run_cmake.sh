@@ -63,7 +63,7 @@ then
  
  
  #ISS_NUM= $(awk '{print $1}' issue_text.tx)
- gh issue close ISS_NUM
+ gh issue close 13
  echo "Building and FLashing STM32F1xx board....."
  cd ..
  cd stm32-cmake-blinking-led/
