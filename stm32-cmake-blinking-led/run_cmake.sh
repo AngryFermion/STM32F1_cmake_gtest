@@ -4,7 +4,7 @@ mkdir build
 cd build/
 cmake ../
 cmake --build .
-#cmake --build . --target stm32-flash
+cmake --build . --target stm32-flash
 cd ../
 cd ../
 rm -r build/
