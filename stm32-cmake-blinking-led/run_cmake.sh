@@ -63,7 +63,7 @@ then
  cd ..
  cd Issues/
  ISS_NUM=$(awk '{print $1}' issue_text.tx)
- 
+ gh issue close ${ISS_NUM}
  echo "Building and FLashing STM32F1xx board....."
  cd ..
  cd ..
