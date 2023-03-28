@@ -65,6 +65,7 @@ then
  ISS_NUM=$(awk '{print $1}' issue_text.tx)
  cd ..
  cd ..
+ cd ..
  pwd
  cd STM32F1_cmake_gtest/
  gh issue close ${ISS_NUM}
