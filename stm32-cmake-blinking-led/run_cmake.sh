@@ -27,7 +27,7 @@ cd build/
 cd gtest/
 make
 pwd
-ctest
+ctest --output-on-failure
 TEST_RET=$?  
 echo "Test has returned:"${TEST_RET}
 comment
@@ -57,7 +57,7 @@ if [ ${TEST_RET} == 0 ]
 then
  echo "GTEST PASSED"
  echo "Closing any issues that were open due to GPIO Gtest failures"
- gh issue close {1} -c "Issue cleared by dev."
+ gh issue close 10
  echo "Building and FLashing STM32F1xx board....."
  cd ..
  cd ..
@@ -71,6 +71,6 @@ then
 else
  echo "GTEST NOT PASSED..."
  echo "CREATING AN ISSUE ON GIT REPOSITORY"
- #gh issue create -a "@me" -b "Gtest failed. Please check GPIO configuration." -t "GPIO Tests"
+ gh issue create -a "@me" -b "Gtest failed. Please check GPIO configuration." -t "GPIO Tests"
 fi
 

@@ -100,4 +100,4 @@
 #define  GPIO_PULLUP        0x00000001u   /*!< Pull-up activation                  */
 #define  GPIO_PULLDOWN      0x00000002u   /*!< Pull-down activation                */
 #endif
-uint16_t *init_led(void);
+int *init_led();

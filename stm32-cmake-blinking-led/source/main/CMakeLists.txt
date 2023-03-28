@@ -9,7 +9,7 @@ target_sources(main
     src/main.c
     ${STM32HAL_SOURCES}
     ${STM32HAL_CMSIS_SOURCES}
-    /home/vishnu/stm_cmake_v3/stm32-cmake-blinking-led/source/main/src/init_led.c
+    /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led/source/main/src/init_led.c
 )
 
 
