@@ -1,1 +1,0 @@
-cmd='/usr/bin/cmake;-C;/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led/cmake/defaults/stm32_cache.cmake;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
