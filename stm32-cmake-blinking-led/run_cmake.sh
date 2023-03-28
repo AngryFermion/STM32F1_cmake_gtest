@@ -58,11 +58,12 @@ then
  echo "GTEST PASSED"
  echo "Closing any issues that were open due to GPIO Gtest failures"
  pwd
+ cd ..
+ cd ..
  cd Issues
  issue_number=$(grep -o "^\w*\b" issue_text.tx)
  gh issue close ${issue_number}
  echo "Building and FLashing STM32F1xx board....."
- cd ..
  cd ..
  cd stm32-cmake-blinking-led/
  rm -r build/
