@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo rm -r build/
+#sudo rm -r build/
+rm -r build/
 mkdir build
 cd build/
 cmake ../
