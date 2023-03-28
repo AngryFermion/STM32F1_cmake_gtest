@@ -60,15 +60,8 @@ then
  echo "GTEST PASSED"
  echo "Closing any issues that were open due to GPIO Gtest failures"
  pwd
- #ISS_NUM= $(awk '{print $1}' issue_text.tx)
-<<<<<<< HEAD
- #gh issue close 13
-=======
- cd ..
- cd ..
- cd /home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led
- gh issue close 13
->>>>>>> 143a078d975450cd25868ef16cfeac6b6ee8797a
+ ISS_NUM= $(awk '{print $1}' issue_text.tx)
+ 
  echo "Building and FLashing STM32F1xx board....."
  cd ..
  cd ..
