@@ -66,6 +66,7 @@ then
  gh issue close 13
  echo "Building and FLashing STM32F1xx board....."
  cd ..
+ cd ..
  cd stm32-cmake-blinking-led/
  rm -r build/
  mkdir build
