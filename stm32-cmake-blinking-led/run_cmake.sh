@@ -62,7 +62,8 @@ then
  cd ..
  cd Issues
  pwd
- issue_number=$(grep -o "^\w*\b" issue_text.tx)
+ grep -o "^\w*\b" issue_text.tx
+ issue_number=$?
  gh issue close ${issue_number}
  echo "Building and FLashing STM32F1xx board....."
  cd ..

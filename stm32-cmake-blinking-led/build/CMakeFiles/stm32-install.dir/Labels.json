@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led/build/CMakeFiles/stm32-install"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led/build/CMakeFiles/stm32-install.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led/build/stm32/src/stm32-stamp/stm32-install.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led/build/stm32/src/stm32-stamp/stm32-build.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led/build/stm32/src/stm32-stamp/stm32-configure.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led/build/stm32/src/stm32-stamp/stm32-update.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led/build/stm32/src/stm32-stamp/stm32-patch.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led/build/stm32/src/stm32-stamp/stm32-download.rule"
+		},
+		{
+			"file" : "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/stm32-cmake-blinking-led/build/stm32/src/stm32-stamp/stm32-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"stm32"
+		],
+		"name" : "stm32-install"
+	}
+}
