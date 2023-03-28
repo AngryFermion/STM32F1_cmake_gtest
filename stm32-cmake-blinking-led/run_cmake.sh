@@ -50,7 +50,7 @@ cd build/
 cd gtest/
 make
 pwd
-ctest
+ctest -v
 TEST_RET=$?  
 echo "Test has returned:"${TEST_RET}
 if [ ${TEST_RET} == 0 ]
@@ -68,5 +68,6 @@ then
 else
  echo "GTEST NOT PASSED..."
  echo "CREATING AN ISSUE ON GIT REPOSITORY"
+ gh issue create -a "@me" -b "Gtest failed. Please check GPIO configuration."
 fi
 

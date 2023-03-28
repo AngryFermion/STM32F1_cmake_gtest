@@ -1,3 +1,0 @@
-HelloTest.BasicAssertions 0 0
----
-HelloTest.BasicAssertions

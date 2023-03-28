@@ -1,5 +1,0 @@
-if(EXISTS "/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/gtest/hello_test[1]_tests.cmake")
-  include("/home/Ancit/Git_STM_cmake_gtest/STM32F1_cmake_gtest/build/gtest/hello_test[1]_tests.cmake")
-else()
-  add_test(hello_test_NOT_BUILT hello_test_NOT_BUILT)
-endif()
