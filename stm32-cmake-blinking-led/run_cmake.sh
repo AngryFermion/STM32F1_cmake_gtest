@@ -58,7 +58,9 @@ then
  echo "GTEST PASSED"
  echo "Closing any issues that were open due to GPIO Gtest failures"
  pwd
- issue_number=$(grep -o "^\w*\b" ../../Issues/issue_text.tx)
+ cd ..
+ cd ..
+ issue_number=$(grep -o "^\w*\b" Issues/issue_text.tx)
  gh issue close ${issue_number}
  echo "Building and FLashing STM32F1xx board....."
  cd ..
