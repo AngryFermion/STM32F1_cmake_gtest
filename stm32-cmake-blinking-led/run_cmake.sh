@@ -18,20 +18,6 @@
 #cd build/testfiles/
 #make
 #cd ..
-#cd ..
-
-#cmake -S . -B build
-#cmake --build build
-#pwd
-#cd build/
-#cd gtest/
-#make
-#pwd
-#ctest --output-on-failure
-#TEST_RET=$?  
-#echo "Test has returned:"${TEST_RET}
-
-
 
 cd ..
 rm -r build/
