@@ -1,37 +1,36 @@
 #!/bin/bash
 #sudo rm -r build/
-<<comment
 
-rm -r build/
-mkdir build
-cd build/
-cmake ../
-cmake --build .
-cmake --build . --target stm32-flash
-cd ../
-cd ../
-rm -r build/
-pwd
-mkdir build
-cd build
-cmake ..
-cd ..
-cd build/testfiles/
-make
-cd ..
-cd ..
+#rm -r build/
+#mkdir build
+#cd build/
+#cmake ../
+#cmake --build .
+#cmake --build . --target stm32-flash
+#cd ../
+#cd ../
+#rm -r build/
+#pwd
+#mkdir build
+#cd build
+#cmake ..
+#cd ..
+#cd build/testfiles/
+#make
+#cd ..
+#cd ..
 
-cmake -S . -B build
-cmake --build build
-pwd
-cd build/
-cd gtest/
-make
-pwd
-ctest --output-on-failure
-TEST_RET=$?  
-echo "Test has returned:"${TEST_RET}
-comment
+#cmake -S . -B build
+#cmake --build build
+#pwd
+#cd build/
+#cd gtest/
+#make
+#pwd
+#ctest --output-on-failure
+#TEST_RET=$?  
+#echo "Test has returned:"${TEST_RET}
+
 
 
 #cd ..
@@ -74,19 +73,17 @@ comment
  #cd ..
  #cd ..
  #cd stm32-cmake-blinking-led/
- cd ..
  rm -r build/
  mkdir build
  cd build/
  cmake ../
  cmake --build .
  cmake --build . --target stm32-flash
-<<comment
-else
- echo "GTEST NOT PASSED..."
- echo "CREATING AN ISSUE ON GIT REPOSITORY"
+ echo "Flashining ended..."
+#else
+# echo "GTEST NOT PASSED..."
+# echo "CREATING AN ISSUE ON GIT REPOSITORY"
  #gh issue create -a "@me" -b "Gtest failed. Please check GPIO configuration." -t "GPIO Tests"
  #ISS_NUM=${ISS_NUM} + 1
  #gh issue list > ../../Issues/issue_text.tx
-fi
-comment
+#fi
