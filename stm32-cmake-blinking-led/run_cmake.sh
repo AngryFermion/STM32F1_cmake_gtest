@@ -70,7 +70,7 @@ comment
  pwd
 # cd STM32F1_cmake_gtest/
  #git config --global --add safe.directory /var/lib/jenkins/STM32F1_cmake_gtest
- echo "Building and Flashing STM32F1xx board with code....."
+ echo "Building and Flashing STM32F1xx board with code 12:41....."
  #cd ..
  #cd ..
  #cd stm32-cmake-blinking-led/
