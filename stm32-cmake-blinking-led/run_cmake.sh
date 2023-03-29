@@ -67,14 +67,17 @@ pwd
  #cd ..
  #cd ..
 # cd ..
- ##Here: pwd
+ cd ..
+ cd ..
+ cd stm32-cmake-blinking-led/
+ pwd
  #set -e
- #echo "Building and Flashing STM32F1xx board with code 12:41....."
- #rm -r build/
- #mkdir build
- #cd build/
- #cmake ../
- #cmake --build .
- #cmake --build . --target stm32-flash
- #echo "Flashining ended..."
+ echo "Building and Flashing STM32F1xx board with code 12:41....."
+ rm -r build/
+ mkdir build
+ cd build/
+ cmake ../
+ cmake --build .
+ cmake --build . --target stm32-flash
+ echo "Flashining ended..."
 
