@@ -78,8 +78,6 @@
  mkdir build
  cd build/
  cmake ../
- BUILD_RET=$(cmake --build .)
- echo "build return:"${BUILD_RET}
  cmake --build . --target stm32-flash
  exit 0
  echo "Flashining ended..."
