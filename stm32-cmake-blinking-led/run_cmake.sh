@@ -67,6 +67,7 @@
  #cd ..
 # cd ..
  pwd
+ set -e
 # cd STM32F1_cmake_gtest/
  #git config --global --add safe.directory /var/lib/jenkins/STM32F1_cmake_gtest
  echo "Building and Flashing STM32F1xx board with code 12:41....."
@@ -77,8 +78,10 @@
  mkdir build
  cd build/
  cmake ../
- cmake --build .
+ BUILD_RET=$(cmake --build .)
+ echo "build return:"${BUILD_RET}
  cmake --build . --target stm32-flash
+ exit 0
  echo "Flashining ended..."
 #else
 # echo "GTEST NOT PASSED..."
