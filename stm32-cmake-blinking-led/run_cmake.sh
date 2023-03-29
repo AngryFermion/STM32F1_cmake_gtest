@@ -38,9 +38,10 @@ cd build/
 cd gtest/
 make
 ctest --output-on-failure
+TEST_RET=$? 
 echo "WE ARE IN THE DIRECTORY:"
 pwd
-#TEST_RET=$?  
+# 
 #echo "Test has returned:"${TEST_RET}
 #if [ ${TEST_RET} == 0 ]
 #then
@@ -53,6 +54,8 @@ pwd
  #cd ..
  #cd ..
 # cd ..
+if [ ${TEST_RES} == 0 ]
+then
  cd ..
  cd ..
  cd stm32-cmake-blinking-led/
@@ -66,4 +69,4 @@ pwd
  cmake --build .
  cmake --build . --target stm32-flash
  echo "Flashining ended..."
-
+fi
