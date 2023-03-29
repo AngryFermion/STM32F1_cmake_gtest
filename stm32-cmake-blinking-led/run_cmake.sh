@@ -18,7 +18,7 @@
 #cd build/testfiles/
 #make
 #cd ..
-
+set -e
 cd ..
 rm -r build/
 pwd
