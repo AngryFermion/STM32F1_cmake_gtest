@@ -78,8 +78,9 @@
  mkdir build
  cd build/
  cmake ../
+ cmake --build .
  cmake --build . --target stm32-flash
- exit 0
+ echo "Flashining ended..."
 #else
 # echo "GTEST NOT PASSED..."
 # echo "CREATING AN ISSUE ON GIT REPOSITORY"
