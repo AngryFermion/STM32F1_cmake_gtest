@@ -33,44 +33,43 @@ TEST_RET=$?
 echo "Test has returned:"${TEST_RET}
 comment
 
-<<comment
-cd ..
-rm -r build/
-pwd
-mkdir build
-cd build
-cmake ..
-cd ..
-cd build/testfiles/
-make
-cd ..
-cd ..
 
-cmake -S . -B build
-cmake --build build
-pwd
-cd build/
-cd gtest/
-make
-pwd
-ctest --output-on-failure
-TEST_RET=$?  
-echo "Test has returned:"${TEST_RET}
-if [ ${TEST_RET} == 0 ]
-then
- echo "GTEST PASSED"
- echo "Closing any issues that were open due to GPIO Gtest failures"
+#cd ..
+#rm -r build/
+#pwd
+#mkdir build
+#cd build
+#cmake ..
+#cd ..
+#cd build/testfiles/
+#make
+#cd ..
+#cd ..
+
+#cmake -S . -B build
+#cmake --build build
+#pwd
+#cd build/
+#cd gtest/
+#make
+#pwd
+#ctest --output-on-failure
+#TEST_RET=$?  
+#echo "Test has returned:"${TEST_RET}
+#if [ ${TEST_RET} == 0 ]
+#then
+ #echo "GTEST PASSED"
+ #echo "Closing any issues that were open due to GPIO Gtest failures"
+# pwd
+ #cd ..
+ #cd ..
+ #cd Issues/
+ #cd ..
+ #cd ..
+# cd ..
  pwd
- cd ..
- cd ..
- cd Issues/
- cd ..
- cd ..
- cd ..
- pwd
- cd STM32F1_cmake_gtest/
- git config --global --add safe.directory /var/lib/jenkins/STM32F1_cmake_gtest
-comment
+# cd STM32F1_cmake_gtest/
+ #git config --global --add safe.directory /var/lib/jenkins/STM32F1_cmake_gtest
  echo "Building and FLashing STM32F1xx board....."
  cd ..
  cd ..
