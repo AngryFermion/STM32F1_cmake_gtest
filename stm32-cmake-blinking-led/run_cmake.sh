@@ -79,7 +79,6 @@
  cd build/
  cmake ../
  cmake --build . --target stm32-flash
- echo "Flashining ended..."
 #else
 # echo "GTEST NOT PASSED..."
 # echo "CREATING AN ISSUE ON GIT REPOSITORY"
