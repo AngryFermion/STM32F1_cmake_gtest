@@ -54,7 +54,7 @@ pwd
  #cd ..
  #cd ..
 # cd ..
-if [ TEST_RES == 0 ]
+if [ ${TEST_RET} == 0 ]
 then
  cd ..
  cd ..
