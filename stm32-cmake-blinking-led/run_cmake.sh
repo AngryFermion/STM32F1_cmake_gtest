@@ -64,14 +64,12 @@ then
  cd ..
  cd ..
  cd Issues/
- ISS_NUM=$(awk '{print $1}' issue_text.tx)
  cd ..
  cd ..
  cd ..
  pwd
  cd STM32F1_cmake_gtest/
  git config --global --add safe.directory /var/lib/jenkins/STM32F1_cmake_gtest
- gh issue close ${ISS_NUM}
 comment
  echo "Building and FLashing STM32F1xx board....."
  cd ..
