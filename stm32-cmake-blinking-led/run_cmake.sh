@@ -79,7 +79,6 @@
  cd build/
  cmake ../
  cmake --build . --target stm32-flash
- exit 0
  echo "Flashining ended..."
 #else
 # echo "GTEST NOT PASSED..."
