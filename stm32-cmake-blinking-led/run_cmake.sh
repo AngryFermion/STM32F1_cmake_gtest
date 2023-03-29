@@ -32,6 +32,8 @@ ctest --output-on-failure
 TEST_RET=$?  
 echo "Test has returned:"${TEST_RET}
 comment
+
+<<comment
 cd ..
 rm -r build/
 pwd
@@ -70,7 +72,7 @@ then
  cd STM32F1_cmake_gtest/
  git config --global --add safe.directory /var/lib/jenkins/STM32F1_cmake_gtest
  gh issue close ${ISS_NUM}
-
+comment
  echo "Building and FLashing STM32F1xx board....."
  cd ..
  cd ..
@@ -81,6 +83,7 @@ then
  cmake ../
  cmake --build .
  cmake --build . --target stm32-flash
+<<comment
 else
  echo "GTEST NOT PASSED..."
  echo "CREATING AN ISSUE ON GIT REPOSITORY"
@@ -88,4 +91,4 @@ else
  #ISS_NUM=${ISS_NUM} + 1
  #gh issue list > ../../Issues/issue_text.tx
 fi
-
+comment
