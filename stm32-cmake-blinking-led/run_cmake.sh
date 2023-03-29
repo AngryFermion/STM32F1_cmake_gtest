@@ -74,6 +74,7 @@ comment
  #cd ..
  #cd ..
  #cd stm32-cmake-blinking-led/
+ cd ..
  rm -r build/
  mkdir build
  cd build/
