@@ -113,7 +113,7 @@ int main(void)
 
     	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_4,GPIO_PIN_SET);
 	
-	HAL_Delay(500);
+	HAL_Delay(500)
         
 	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_4,GPIO_PIN_RESET);
 
