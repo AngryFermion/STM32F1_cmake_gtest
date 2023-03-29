@@ -1,23 +1,5 @@
 #!/bin/bash
-#sudo rm -r build/
 
-#rm -r build/
-#mkdir build
-#cd build/
-#cmake ../
-#cmake --build .
-#cmake --build . --target stm32-flash
-#cd ../
-#cd ../
-#rm -r build/
-#pwd
-#mkdir build
-#cd build
-#cmake ..
-#cd ..
-#cd build/testfiles/
-#make
-#cd ..
 set -e
 cd ..
 rm -r build/
@@ -41,19 +23,6 @@ ctest --output-on-failure
 TEST_RET=$? 
 echo "WE ARE IN THE DIRECTORY:"
 pwd
-# 
-#echo "Test has returned:"${TEST_RET}
-#if [ ${TEST_RET} == 0 ]
-#then
- #echo "GTEST PASSED"
- #echo "Closing any issues that were open due to GPIO Gtest failures"
-# pwd
- #cd ..
- #cd ..
- #cd Issues/
- #cd ..
- #cd ..
-# cd ..
 if [ ${TEST_RET} == 0 ]
 then
  cd ..
