@@ -51,8 +51,9 @@ pwd
 cd build/
 cd gtest/
 make
-pwd
 ctest --output-on-failure
+echo "WE ARE IN THE DIRECTORY:"
+pwd
 #TEST_RET=$?  
 #echo "Test has returned:"${TEST_RET}
 #if [ ${TEST_RET} == 0 ]
