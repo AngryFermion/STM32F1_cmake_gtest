@@ -79,6 +79,7 @@
  cd build/
  cmake ../
  cmake --build . --target stm32-flash
+ exit 0
 #else
 # echo "GTEST NOT PASSED..."
 # echo "CREATING AN ISSUE ON GIT REPOSITORY"
