@@ -2,14 +2,8 @@
 #include <gtest/gtest.h>
 #include <stdio.h>
 #include <stdint.h>
-
-
 #define STM32F103xB
-
-  
 // Demonstrate some basic assertions.
-
-
 int *gpio_test;
 
 TEST(HelloTest, BasicAssertions) {
