@@ -91,7 +91,7 @@ int main(void)
   /* Initialize all configured peripherals */
   //MX_GPIO_Init();
   init_led();
-  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_,GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB,GPIO_PIN_4,GPIO_PIN_RESET);
   /* USER CODE BEGIN 2 */
 	//blink();
 	//blink();
