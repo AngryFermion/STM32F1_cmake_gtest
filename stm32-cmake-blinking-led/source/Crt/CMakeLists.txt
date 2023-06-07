@@ -7,7 +7,7 @@ target_sources(Crt
 
 target_link_libraries(Crt
   INTERFACE
-    irq
+    #irq
     "-T ${CMAKE_CURRENT_SOURCE_DIR}/linker.ld"
 )
 

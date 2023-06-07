@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS "ON")
 
-add_subdirectory(irq)
+#add_subdirectory(irq)
 #add_subdirectory(crt)
 #add_subdirectory(cubemx)
 #add_subdirectory(hal)
